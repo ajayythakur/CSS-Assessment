@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(
+        black  0%,
+        purple  60%,
+        red  100%
+    );
+}
+.img{
+    border-radius: 100px;
+    margin-left: 1150px;
+}
+.txt{
+    text-align: center;
+    font-size: small
+}
+.img2{
+border-radius: 50px;
+position: relative;
+left: 40%;
+}
+.txt1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+@media (min-width:320px) and (max-width:480px){
+    .img{
+        height: 100px;
+        width: 100px;
+        margin-left: 190px;
+    }
+    .img2{
+        height: 100px;
+        width: 100px;
+    }
+    .txt{
+        font-size: 10px;
+    }
+    .txt1{
+        font-size: 13px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
